@@ -25,7 +25,7 @@ export default function AuthScreen() {
   return (
     <main className="auth-page">
       <section className="auth-card">
-        <div className="auth-logo"><span /> <b>PokéDex</b> Manager</div>
+        <div className="auth-logo"><span /> <b>PokéDex</b></div>
         <h1>{mode === 'login' ? 'Iniciar sesión' : 'Crear cuenta'}</h1>
         <p className="muted">Gestiona tu colección personal de Pokémon.</p>
         <form onSubmit={submit}>

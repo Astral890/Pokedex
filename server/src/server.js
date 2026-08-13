@@ -53,7 +53,7 @@ function auth(req, res, next) {
 }
 
 app.get('/api/health', (req, res) => {
-  res.json({ ok: true, service: 'PokéDex Manager API' });
+  res.json({ ok: true, service: 'PokéDex API' });
 });
 
 app.post('/api/auth/register', async (req, res) => {
@@ -135,4 +135,4 @@ app.delete('/api/collection/:id', auth, async (req, res) => {
   res.status(204).send();
 });
 
-app.listen(PORT, () => console.log(`PokéDex Manager API: http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`PokéDex API: http://localhost:${PORT}`));

@@ -25,7 +25,7 @@ export default function App() {
     return () => window.removeEventListener('keydown', handler);
   }, [pokemonState.next, pokemonState.previous, pokemonState.random]);
 
-  if (authLoading) return <div className="loading-page">Cargando PokéDex Manager...</div>;
+  if (authLoading) return <div className="loading-page">Cargando PokéDex...</div>;
   if (!user) return <AuthScreen />;
 
   const controls = {
