@@ -1,6 +1,6 @@
-# PokéDex Manager
+# PokéDex
 
-Aplicación web full-stack para gestionar una colección personal de Pokémon. El proyecto está construido con React + Vite en el frontend y Node.js + Express en el backend.
+Aplicación web para gestionar una colección personal de Pokémon. El proyecto está construido con React + Vite en el frontend y Node.js + Express en el backend.
 
 ## Funcionalidades
 
@@ -17,7 +17,7 @@ Aplicación web full-stack para gestionar una colección personal de Pokémon. E
 - Buscar por nombre o ID.
 - Pokémon anterior/siguiente.
 - Pokémon aleatorio.
-- Imagen oficial.
+- Imagen.
 - Tipos.
 - HP, ataque, defensa y velocidad.
 - Generación.
