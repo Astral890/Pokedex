@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "794f7bbc-3b49-40bd-868e-71380832ff60",
+      "name": "Erick Aguilar",
+      "email": "enac7125@outlook.com",
+      "passwordHash": "$2b$10$YQMAX77/YGa5tkzgHPMyx.KwqBfDgyejy3rAVCMGWBSOAfeNgjnWm",
+      "createdAt": "2026-08-13T03:15:18.452Z"
+    }
+  ],
+  "collections": [
+    {
+      "id": "ad7231b3-99ca-4a3a-8d23-6951da7f4126",
+      "userId": "794f7bbc-3b49-40bd-868e-71380832ff60",
+      "pokemonId": 1,
+      "name": "bulbasaur",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "note": "",
+      "favorite": true,
+      "createdAt": "2026-08-13T03:30:16.642Z"
+    },
+    {
+      "id": "3de146da-ea56-4e83-be4b-418e1352129c",
+      "userId": "794f7bbc-3b49-40bd-868e-71380832ff60",
+      "pokemonId": 25,
+      "name": "pikachu",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "types": [
+        "electric"
+      ],
+      "note": "",
+      "favorite": false,
+      "createdAt": "2026-08-13T04:15:21.732Z"
+    }
+  ]
+}
